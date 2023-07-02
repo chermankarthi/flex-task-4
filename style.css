@@ -1,0 +1,64 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+h5::after{
+	content:"";
+	border:1px solid orange;
+	width:100px;
+	position:absolute;
+	left:65px;
+	top:15px;
+}
+
+
+
+
+
+h1{
+	font-size:30px;
+}
+h5{
+	color:rgba(0, 0, 0, 0.5);
+}
+.container{
+	margin:50px 0px 100px 100px;
+	position:relative;
+}
+
+.title{
+	margin:0 0 25px 20px;
+	line-height:30px;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+}
+
+.card{
+	border-radius:5px;
+	margin:20px;
+	box-shadow:0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.member-details{
+	padding:20px 0 20px 10px;
+	line-height:25px;
+}
+.member-details h3{
+		font-family: 'Raleway', sans-serif;
+}
+
+.member-details p{
+		color:rgba(0, 0, 0, 0.5);
+}
+
+
+img.photo{
+	height:250px;
+	width:250px;
+	border-radius:5px 5px 0 0;
+}
